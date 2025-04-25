@@ -4,10 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    text-align: center;
-    background-color: rgb(23, 28, 73);
-    font-size: 110px;
+
     color: white;
+    font-size: 70px;
+    background-color:  rgb(23, 28, 73);;
+    text-align: center;
+    padding: 20px;
 }
 p{
     text-align: center;
@@ -64,12 +66,6 @@ h3{
 }
 
 
-.sobre{
-    font-size: 80px;
-    background-color:  rgb(23, 28, 73);;
-    color: white;
-    text-align: center;
-}
 article.divsobre{
     text-align: center;
     font-size: 30px;
@@ -86,17 +82,12 @@ article.divsobre{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 330px;
+    margin-top: 300px;
     font-size: 15px;  
     background-color: goldenrod;
 }
 
-h1.gerar{
-    color: white;
-    font-size: 70px;
-    background-color:  rgb(23, 28, 73);;
-    text-align: center;
-}
+
 p.gerar{
     margin: 10px;
     font-size: 40px;
@@ -106,7 +97,7 @@ p.gerar{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 400px;
+    margin-top: 50px;
     font-size: 15px;  
     background-color: goldenrod;
 }
@@ -118,18 +109,18 @@ p.gerar{
 .b2gerar{
     font-size: 20px;
 }
-
-h1.galeria{
-    font-size: 80px;
-    background-color:  rgb(23, 28, 73);;
-    color: white;
-    text-align: center;
+.imagemRandom{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
 }
+
+
 .button{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 15px;  
     background-color: goldenrod;
 }
@@ -140,14 +131,10 @@ h1.galeria{
    gap: 100px;
    justify-items: center;
    width: 600px;
+   margin-left: 170px;
 }
 
-h1.contato{
-    font-size: 80px;
-    background-color:  rgb(23, 28, 73);;
-    color: white;
-    text-align: center;
-}
+
 p.contato{
     text-align: center;
     font-size: 30px;
