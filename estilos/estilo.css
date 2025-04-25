@@ -134,11 +134,11 @@ h1.galeria{
     background-color: goldenrod;
 }
 .card{
+    margin: 20px;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 100px;
-   justify-content: center;
-   margin: 0 auto;
+   justify-items: center;
    width: 600px;
 }
 
